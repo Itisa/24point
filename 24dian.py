@@ -86,6 +86,35 @@ def points(a,b,c,d):
 			else:
 				c1 = d 
 				d1 = c
+		elif p1 >16 and p1 < 19:
+			b1 = a
+			c1 = b
+			if p1 == 16:
+				d1 = c
+				a1 = d
+			else:
+				d1 = d
+				a1 = c
+		elif p1 >18 and p1 < 21:
+			c1 = a
+			d1 = b
+			if p1 == 16:
+				a1 = c
+				b1 = d
+			else:
+				a1 = d
+				b1 = c
+		elif p1 >20 and p1 < 19:
+			d1 = a
+			a1 = b
+			if p1 == 16:
+				b1 = c
+				c1 = d
+			else:
+				b1 = d
+				c1 = c
+
+
 			
 		a2 = 0
 		for z1 in range(96):
